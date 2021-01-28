@@ -20,8 +20,7 @@
 		padding-right:30px;
 		padding-left: 40px;
 		font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
-		zoom:90%;
-		
+		zoom: 90%;
 		
 		height:80%;
 		width:100%;
@@ -54,6 +53,14 @@
 		border-left:1px solid #FFF;
 		border-top:1px solid #FFF;
 		position:absolute;
+	}
+	.btn1{
+		background-color: #00ff11;
+		font-size: 18px;
+	}
+	.btn2{
+		background-color: #ff8800;
+		font-size: 18px;
 	}
 
 	.activeImageIndicator{
@@ -385,7 +392,7 @@
   </script>
 
 
-<button type="button"  style="height:30px;width:150px;font: size 20;" onclick='initPuzzle()' >New Question</button>&nbsp;&nbsp;<button href=".html" type="button"  style="height:30px;width:150px;font: size 20;" >Buy Full Version</button> &nbsp;&nbsp;&nbsp;&nbsp;
+<button type="button" class="btn1"  style="height:30px;width:150px;font: size 20;" onclick='initPuzzle()' >New Question</button>&nbsp;&nbsp;<button href=".html" class="btn2" type="button"  style="height:30px;width:150px;font: size 20;"  onclick="window.open('Home-Page.html')">Buy Full Version</button> &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="#" onmousedown="revealImage();return false" onmouseout="scramble()">
 	Click to show Answer & Hover to scramble !</a>
 
